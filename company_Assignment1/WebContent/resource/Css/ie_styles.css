@@ -1,0 +1,88 @@
+/*general*/
+
+body {
+	margin:8px;
+	padding: 0;
+	background-color: #FFFFFF;
+	font-family:Calibri;
+	font-size:14px;
+}
+input[type='button'],input[type='submit'],input[type='text'],select,lable,table tr td,h1,h2,h3,fieldset{ font-family:Calibri;}
+input[type="text"]{color: #000000; height: 14px; font-size:14px;	}
+select{ color: #000000; height: 20px; font-size:14px;}
+a{text-decoration:none; color:inherit;}
+a:hover {text-decoration: underline;}
+
+fieldset{ border:1px solid #cbbb7c;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		}
+
+/*fieldset {
+    padding-top:10px;
+    border:1px solid #666;
+    border-radius:8px;
+    box-shadow:0 0 10px #666;
+}
+legend {
+    float:left;
+    margin-top:-20px;
+}
+legend + * {
+    clear:both;
+}
+*/
+.mainTable {
+	width: 100%;
+	position: relative;
+	padding-left: 12px;
+	padding-right: 12px;
+	overflow-x: scroll;
+}
+.mainTable td{margin:0; padding:0;}
+.headerText {
+
+	font-size: 18px;
+	font-weight: bold;
+	color:#002800;
+	padding-left: 2px;
+	vertical-align: middle;
+	line-height: 35px;
+}
+.headerText span{
+	font-size: 14px;
+	font-weight: bold;
+	color:#002800;	
+	vertical-align:bottom;
+	line-height: 16px;
+}
+.subHeaderText {
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;	
+	background-color:#999880;
+	line-height: 18px;	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	right:6px;
+	
+}
+.subHeaderText h3{color:#f2f2f2;  float:left; width:auto; padding:0px 5px 5px 5px; vertical-align:super; line-height:20px; }
+
+table.innerTable {
+		width:100%; 
+		background: #F3F3EF;		
+		position: relative;		
+		line-height: 20px;
+				border-right: 1px solid #cbbb7c;
+		border-left: 1px solid #cbbb7c;
+		border-bottom: 1px solid #cbbb7c;
+		 -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+	-ms-border-radius: 20px;
+	behavior: url(../../border-radius.htc);
+    border-radius: 20px;
+		}

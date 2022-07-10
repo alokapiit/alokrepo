@@ -1,0 +1,21 @@
+.ui-dropdownchecklist
+{
+	
+	background-color: #fff;
+font-family:Calibri; font-size:12px; font-weight:normal; color:#000000;   
+
+}
+/*.ui-dropdownchecklist-hover, .ui-dropdownchecklist-active
+{
+	background-image:url(../images/dropdown_hover.png); 
+	border-color: #5794bf;
+}*/
+
+.ui-dropdownchecklist-text
+{
+	background-color: #fff;
+	font-family:Calibri; font-size:12px;
+	height: 20px;
+padding-left:5px; padding-right:5px;
+	
+}
