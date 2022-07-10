@@ -1,5 +1,5 @@
 /* Rearrange an array such that arr[i] = i */
-
+/*GIT test */
 public class RearrangeAnArray {
 
 	public static void main(String[] args) {
